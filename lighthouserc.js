@@ -1,10 +1,11 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: "npm run start:prod",
+      // startServerCommand: "npm run start:prod",
+      // startServeCommand: "npx lhci"
       url: ["http://localhost:8080"],
       numberOfRuns: 3,
-      chromePath: "/bin/google-chrome",
+      // chromePath: "/bin/google-chrome",
     },
     assert: {
       assertions: {
